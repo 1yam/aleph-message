@@ -3,7 +3,7 @@ from enum import Enum
 
 class Chain(str, Enum):
     """Supported chains"""
-
+    SEPOLIA = "SEPOLIA" # testnet
     AVAX = "AVAX"
     BSC = "BSC"
     CSDK = "CSDK"
